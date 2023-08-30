@@ -1,28 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fogar\\Downloads\\Aula03_jaq\\Aula03_jaq.csproj": {}
+    "C:\\Users\\Aluno\\Desktop\\Aula03_Jaq-main\\Aula03_jaq\\Aula03_jaq.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fogar\\Downloads\\Aula03_jaq\\Aula03_jaq.csproj": {
+    "C:\\Users\\Aluno\\Desktop\\Aula03_Jaq-main\\Aula03_jaq\\Aula03_jaq.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fogar\\Downloads\\Aula03_jaq\\Aula03_jaq.csproj",
+        "projectUniqueName": "C:\\Users\\Aluno\\Desktop\\Aula03_Jaq-main\\Aula03_jaq\\Aula03_jaq.csproj",
         "projectName": "Aula03_jaq",
-        "projectPath": "C:\\Users\\fogar\\Downloads\\Aula03_jaq\\Aula03_jaq.csproj",
-        "packagesPath": "C:\\Users\\fogar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fogar\\Downloads\\Aula03_jaq\\obj\\",
+        "projectPath": "C:\\Users\\Aluno\\Desktop\\Aula03_Jaq-main\\Aula03_jaq\\Aula03_jaq.csproj",
+        "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aluno\\Desktop\\Aula03_Jaq-main\\Aula03_jaq\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Downloads VS\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\fogar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows"
+          "net6.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -49,8 +49,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -62,7 +61,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

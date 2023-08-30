@@ -31,18 +31,19 @@
             this.lblN = new System.Windows.Forms.Label();
             this.txtbn = new System.Windows.Forms.TextBox();
             this.gbxP = new System.Windows.Forms.GroupBox();
-            this.rdbpf = new System.Windows.Forms.RadioButton();
             this.rdbPI = new System.Windows.Forms.RadioButton();
+            this.rdbpf = new System.Windows.Forms.RadioButton();
             this.gbxC = new System.Windows.Forms.GroupBox();
             this.rdbF = new System.Windows.Forms.RadioButton();
             this.rdbB = new System.Windows.Forms.RadioButton();
             this.gpbComp = new System.Windows.Forms.GroupBox();
-            this.ckbT = new System.Windows.Forms.CheckBox();
-            this.ckbP = new System.Windows.Forms.CheckBox();
-            this.ckbC = new System.Windows.Forms.CheckBox();
             this.ckbM = new System.Windows.Forms.CheckBox();
+            this.ckbC = new System.Windows.Forms.CheckBox();
+            this.ckbP = new System.Windows.Forms.CheckBox();
+            this.ckbT = new System.Windows.Forms.CheckBox();
             this.btnFechar = new System.Windows.Forms.Button();
             this.lblP = new System.Windows.Forms.Label();
+            this.btnP = new System.Windows.Forms.Button();
             this.gbxP.SuspendLayout();
             this.gbxC.SuspendLayout();
             this.gpbComp.SuspendLayout();
@@ -75,17 +76,6 @@
             this.gbxP.TabStop = false;
             this.gbxP.Text = "Pão";
             // 
-            // rdbpf
-            // 
-            this.rdbpf.AutoSize = true;
-            this.rdbpf.Location = new System.Drawing.Point(26, 41);
-            this.rdbpf.Name = "rdbpf";
-            this.rdbpf.Size = new System.Drawing.Size(98, 19);
-            this.rdbpf.TabIndex = 0;
-            this.rdbpf.TabStop = true;
-            this.rdbpf.Text = "Pão de Forma";
-            this.rdbpf.UseVisualStyleBackColor = true;
-            // 
             // rdbPI
             // 
             this.rdbPI.AutoSize = true;
@@ -96,6 +86,17 @@
             this.rdbPI.TabStop = true;
             this.rdbPI.Text = "Pão integral";
             this.rdbPI.UseVisualStyleBackColor = true;
+            // 
+            // rdbpf
+            // 
+            this.rdbpf.AutoSize = true;
+            this.rdbpf.Location = new System.Drawing.Point(26, 41);
+            this.rdbpf.Name = "rdbpf";
+            this.rdbpf.Size = new System.Drawing.Size(98, 19);
+            this.rdbpf.TabIndex = 0;
+            this.rdbpf.TabStop = true;
+            this.rdbpf.Text = "Pão de Forma";
+            this.rdbpf.UseVisualStyleBackColor = true;
             // 
             // gbxC
             // 
@@ -143,25 +144,15 @@
             this.gpbComp.TabStop = false;
             this.gpbComp.Text = "Complementos";
             // 
-            // ckbT
+            // ckbM
             // 
-            this.ckbT.AutoSize = true;
-            this.ckbT.Location = new System.Drawing.Point(22, 41);
-            this.ckbT.Name = "ckbT";
-            this.ckbT.Size = new System.Drawing.Size(65, 19);
-            this.ckbT.TabIndex = 0;
-            this.ckbT.Text = "Tomate";
-            this.ckbT.UseVisualStyleBackColor = true;
-            // 
-            // ckbP
-            // 
-            this.ckbP.AutoSize = true;
-            this.ckbP.Location = new System.Drawing.Point(22, 94);
-            this.ckbP.Name = "ckbP";
-            this.ckbP.Size = new System.Drawing.Size(56, 19);
-            this.ckbP.TabIndex = 1;
-            this.ckbP.Text = "Picles";
-            this.ckbP.UseVisualStyleBackColor = true;
+            this.ckbM.AutoSize = true;
+            this.ckbM.Location = new System.Drawing.Point(22, 196);
+            this.ckbM.Name = "ckbM";
+            this.ckbM.Size = new System.Drawing.Size(105, 19);
+            this.ckbM.TabIndex = 3;
+            this.ckbM.Text = "Molho da Casa";
+            this.ckbM.UseVisualStyleBackColor = true;
             // 
             // ckbC
             // 
@@ -173,15 +164,25 @@
             this.ckbC.Text = "Cebola";
             this.ckbC.UseVisualStyleBackColor = true;
             // 
-            // ckbM
+            // ckbP
             // 
-            this.ckbM.AutoSize = true;
-            this.ckbM.Location = new System.Drawing.Point(22, 196);
-            this.ckbM.Name = "ckbM";
-            this.ckbM.Size = new System.Drawing.Size(105, 19);
-            this.ckbM.TabIndex = 3;
-            this.ckbM.Text = "Molho da Casa";
-            this.ckbM.UseVisualStyleBackColor = true;
+            this.ckbP.AutoSize = true;
+            this.ckbP.Location = new System.Drawing.Point(22, 94);
+            this.ckbP.Name = "ckbP";
+            this.ckbP.Size = new System.Drawing.Size(56, 19);
+            this.ckbP.TabIndex = 1;
+            this.ckbP.Text = "Picles";
+            this.ckbP.UseVisualStyleBackColor = true;
+            // 
+            // ckbT
+            // 
+            this.ckbT.AutoSize = true;
+            this.ckbT.Location = new System.Drawing.Point(22, 41);
+            this.ckbT.Name = "ckbT";
+            this.ckbT.Size = new System.Drawing.Size(65, 19);
+            this.ckbT.TabIndex = 0;
+            this.ckbT.Text = "Tomate";
+            this.ckbT.UseVisualStyleBackColor = true;
             // 
             // btnFechar
             // 
@@ -202,11 +203,22 @@
             this.lblP.TabIndex = 6;
             this.lblP.Text = "Pedido:";
             // 
+            // btnP
+            // 
+            this.btnP.Location = new System.Drawing.Point(617, 338);
+            this.btnP.Name = "btnP";
+            this.btnP.Size = new System.Drawing.Size(107, 43);
+            this.btnP.TabIndex = 7;
+            this.btnP.Text = "Pesquisa";
+            this.btnP.UseVisualStyleBackColor = true;
+            this.btnP.Click += new System.EventHandler(this.btnP_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(780, 414);
+            this.Controls.Add(this.btnP);
             this.Controls.Add(this.lblP);
             this.Controls.Add(this.btnFechar);
             this.Controls.Add(this.gpbComp);
@@ -244,5 +256,6 @@
         private CheckBox ckbT;
         private Button btnFechar;
         private Label lblP;
+        private Button btnP;
     }
 }

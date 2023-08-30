@@ -13,5 +13,6 @@ namespace Aula03_jaq
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
         }
+        public static List<ConsultaP> Listapedido = new List<ConsultaP>();
     }
 }
